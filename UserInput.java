@@ -8,6 +8,7 @@ class UserInput extends ConsoleProgram {
     double dblCurrentMark;
     boolean blnAssignedLocker;
 
+    // Assign variables to user input
     strName = readLine("Enter your name: ");
     System.out.println("Name: " + strName);
 
